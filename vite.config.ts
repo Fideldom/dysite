@@ -1,20 +1,24 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "node:path";
 
 export default defineConfig({
-  // ... outras configurações do seu projeto ...
-
-  preview: {
-    allowedHosts: [
-      'dysite.onrender.com', // Libera o seu domínio do Render
-      '.onrender.com'        // Libera qualquer subdomínio do Render
-    ]
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: { "@": path.resolve(__dirname, "client/src") },
   },
-  
-  // Caso esteja rodando em modo dev/server no Render, adicione também no server:
-  server: {
-    allowedHosts: [
-      'dysite.onrender.com',
-      '.onrender.com'
-    ]
+  root: path.resolve(__dirname, "client"),
+  build: {
+    outDir: path.resolve(__dirname, "dist/public"),
+    emptyOutDir: true,
+  },
+  server: { 
+    port: 3000, 
+    host: true,
+    allowedHosts: [".onrender.com", true]
+  },
+  preview: {
+    allowedHosts: [".onrender.com", true]
   }
 });
