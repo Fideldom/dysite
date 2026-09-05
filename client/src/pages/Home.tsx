@@ -25,7 +25,7 @@ import { trackEvent } from "@/lib/analytics";
 const media = "/media/";
 const slides = [
   {
-    image: `${media}IMG-20260901-WA0008.jpg`,
+    image: `${media}IMG-20260905-WA0028.jpg`,
     eyebrow: "Software certificado para faturação electrónica",
     title: "O negócio cresce quando a operação ganha clareza.",
     accent: "clareza.",

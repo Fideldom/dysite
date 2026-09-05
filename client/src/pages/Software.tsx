@@ -21,37 +21,37 @@ const products = [
     "Faturação e Stock",
     "O núcleo",
     "Facturação electrónica, produtos, clientes, fornecedores, stock e relatórios num fluxo mais controlado.",
-    "IMG-20260901-WA0008.jpg",
+    "IMG-20260905-WA0023.jpg",
   ],
   [
     "Restauração",
     "Turnos que fluem",
     "Pedidos, mesas, produtos e caixa com uma leitura operacional pensada para a realidade da restauração.",
-    "IMG-20260901-WA0009.jpg",
+    "IMG-20260905-WA0033.jpg",
   ],
   [
     "Hotelaria e Restauração",
     "Hospitalidade com controlo",
     "Uma base digital para ligar reservas, serviços, consumos e gestão diária.",
-    "IMG-20260901-WA0010.jpg",
+    "IMG-20260905-WA0035.jpg",
   ],
   [
     "Lavandaria",
     "Cada peça importa",
     "Registo de entrada, estados, clientes e entregas para reduzir perdas e dar visibilidade ao trabalho.",
-    "IMG-20260901-WA0011.jpg",
+    "IMG-20260905-WA0028.jpg",
   ],
   [
     "Barbearia",
     "Agenda em ordem",
     "Serviços, profissionais, agenda e histórico num sistema simples de operar.",
-    "IMG-20260901-WA0009.jpg",
+    "IMG-20260905-WA0034.jpg",
   ],
   [
     "Oficina",
     "Da recepção à entrega",
     "Ordens de serviço, peças, clientes e acompanhamento para uma oficina mais previsível.",
-    "IMG-20260901-WA0010.jpg",
+    "IMG-20260905-WA0028.jpg",
   ],
 ];
 export default function Software() {
